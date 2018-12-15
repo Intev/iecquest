@@ -11,6 +11,7 @@ class Quest(models.Model):
 class ModelVisual(models.Model):
     model = models.FileField(upload_to='media', null=True, blank=True)
     url = models.URLField(max_length=500)
+    mtl = models.URLField(max_length=500)
     slug = models.SlugField()
     scales=models.CharField(max_length=50, default='1 1 1')
     rotation=models.CharField(max_length=50, default='0 0 0')

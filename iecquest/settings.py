@@ -30,7 +30,7 @@ SECRET_KEY = os.environ['SECRET']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ['DEBUG'])
 
-ALLOWED_HOSTS = ['iecquest.herokuapp.com']
+ALLOWED_HOSTS = ['iecquest.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
