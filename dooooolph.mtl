@@ -1,4 +1,4 @@
-# Blender MTL File: 'None'
+# Blender MTL File: 'ff.blend'
 # Material Count: 5
 
 newmtl Ceramic_tiles
@@ -10,8 +10,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Bump -bm 0.350042 Map #2138382995
-map_Kd Map #2138382994
+map_Bump -bm 0.350042 E:\\Map #2138382995
+map_Kd E:\\Map #2138382994
 
 newmtl Chromium
 Ns 94.117647
